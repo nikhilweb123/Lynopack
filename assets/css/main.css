@@ -43,6 +43,12 @@
   transform: scale(1.1);
 }
 
+/* Logo Image Size */
+.logo img {
+  max-height: 250px; /* Adjust this value as needed */
+  width: 200px;
+}
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
