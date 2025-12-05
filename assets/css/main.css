@@ -46,7 +46,7 @@
 /* Logo Image Size */
 .logo img {
   max-height: 400px; /* Adjust this value as needed */
-  width: 200px;
+  width: 190px;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -791,6 +791,60 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+}
+
+/* General Feature Box Styling */
+.feature-box {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.product-portfolio .brochure-item {
+  background: var(--surface-color);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-portfolio .brochure-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-portfolio .brochure-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.product-portfolio .brochure-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.product-portfolio-slider {
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.product-portfolio-slider .swiper-pagination {
+  margin-top: 20px; /* Add space above the pagination dots */
+  position: relative; /* Ensure proper positioning */
+  bottom: auto; /* Override any default bottom positioning */
 }
 
 /*--------------------------------------------------------------
