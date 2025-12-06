@@ -793,6 +793,12 @@ section,
   margin-bottom: 0;
 }
 
+.bg-section-light {
+  background-color: #e6e2e2;
+  padding: 60px 0;
+}
+
+
 /* General Feature Box Styling */
 .feature-box {
   padding: 1.5rem;
